@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  border: 1px  solid;
+  border-radius: 3px;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+button:hover {
+  cursor: pointer;
+  background-color:aquamarine
+}
+
+.timer {
+  display: flex;
+  padding-top: 10px;
+}
+
+.field {
+  padding-right: 10px;
+}
+.timer-button{
+  font-size: 15px;
+  padding: 4px 20px;
+}
+input {
+width: 290px;
+height: 27px;
+border: 1px solid;
+border-radius: 3px;
+}
+.value{
+  font-size: 30px;
+}
